@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Myfont;
+    src: url(Poppins-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Myfont;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 50px 50px ;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -10px;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    font-size: 33px;
+}
+
+.nav a {
+    margin-left: 40px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+.search {
+    outline: none;
+    height: 40px;
+    width: 550px;
+    background: rgb(28, 28, 28);
+    border: none;
+    border-radius: 20px;
+    margin-top: -6px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    color: white;
+    transition: 0.3s;
+}
+
+.search:hover {
+    border-color: black;
+    background-color: rgb(46, 46, 46);
+}
+
+.search::placeholder {
+    color: gray;
+}
+
+#i1 {
+    font-size: 30px;
+    margin-left: -50px;
+    transition: 0.3s;
+}
+
+#i1:hover {
+    color: gray;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 25px;
+}
+
+.hr1 {
+    margin: 40px 5%;
+    border: 3px solid rgb(28, 28, 28);
+}
+
+.tshirt {
+    margin: 2%;
+    font-size: 30px;
+
+    
+}
+
+
+.ts {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.img1 {
+    width:23%;
+    border-radius: 10px;
+    height: 350PX;
+    transition: 0.5s;
+    
+}
+
+.img1:hover {
+    opacity: 50%;
+    width: 24%;
+    height: 360px;
+}
+
+.hr2 {
+    margin: 70px 5%;
+    background-color: rgb(28, 28, 28);
+    border: 3px solid rgb(28, 28, 28);
+}
+
+
+.labels1 {
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.labels1 label {
+    width: 23%;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+
+}
+
+.prices h3 {
+    width: 23%;
+}
+
+.cart {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart i {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.cart a {
+    width: 23%;
+
+}
+
+.cart i:hover {
+    background-color: white;
+    color: black;
+    outline: none;
+    
+}
+
+.footer {
+    background-color: rgb(28, 28, 28) ;
+    padding: 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer p {
+    font-size: 15px;
+    color: white;
+}
+
+.order {
+    font-size: 30px;
+    text-align: center;
+}
+
+.inputs {
+    width: 40%;
+    margin: auto;
+}
+
+.inputs input {
+    background-color: rgb(28, 28, 28);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.inputs input:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btndiv {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+.btn:hover {
+    /* border: none; */
+    color: black;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(28, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(46, 46, 46);
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white   ;
+}
+
+.links {
+    text-align: center;
+    background: rgb(28, 28, 28);
+    margin-top: -150px;
+    font-size: 30px;
+}
+
+.links a {
+    color: white;
+}
+
